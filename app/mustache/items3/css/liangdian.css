@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    margin-top: 60px;
+}
+@media screen and (min-width: 1200px){
+    .index-dn-caption {
+        width: 300px;
+        position: absolute;
+        top: 10px;
+        left: 400px;
+    }
+    .index-main-lf{
+        background-color: #C9D980;
+        height: 498px;
+    }
+}
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .index-dn-caption {
+        width: 300px;
+        position: absolute;
+        top: 10px;
+        left: 300px;
+    }
+    .index-main-lf{
+         background-color: #C9D980;
+         height: 411px;
+     }
+}
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .index-dn-caption {
+        width: 300px;
+        position: absolute;
+        top: 10px;
+        left: 200px;
+    }
+    .index-main-lf{
+        background-color: #C9D980;
+        height: 480px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 404px){
+    .index-dn-caption {
+        width: 300px;
+        position: absolute;
+        top: 10px;
+        left: 100px;
+    }
+}
+.index-main{
+    margin-top: 10px;
+}
+.index-main-h4{
+    color: #609D62;
+    font-weight: bold;
+}
+.index-main-h5{
+    color: #609D62;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+.list-unstyled li{
+    margin-top: 5px;
+}
+.index-main-more{
+    margin-top: 10px;
+}
+.index-main-nav{
+    border-bottom: 2px solid #609D62;
+}
+.index-main-img{
+    margin-top: 10px;
+}
+/*图片遮罩层*/
+.index-main-mask{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+.index-main-mask div.index-mask {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 100%;
+    height: 100%;
+    transition: all .3s linear;
+}
+.index-main-mask div.index-mask div:nth-child(1){
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+}
+.index-main-mask div.index-mask div:nth-child(2){
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.index-main-mask:hover div.index-mask{
+    top:0;
+}
+.index-main-mask div.index-mask div:nth-child(2)>span{
+    display: inline-block;
+    color: #fff;
+    padding: 5px 10px 0 10px;
+
+}
+.index-main-price{
+    font-size: 26px;
+    font-family: "方正黑体简体";
+    color: #FF7700;
+    text-align: center;
+}
+.foot{
+    margin-bottom: 60px;
+}
+
+/*更多*/
+.more-nav{
+    font-weight: bold;
+    border-bottom: 2px solid #4CB5EC;
+    padding-bottom: 10px;
+}

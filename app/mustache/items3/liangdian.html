@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="liangdian">
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>亮点旅游</title>
+        <link rel="icon" href="img/favicon.ico"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+        <link rel="stylesheet" href="css/liangdian.css"/>
+    </head>
+    <body ng-controller="parentCtrl">
+
+        <div ng-view></div>
+
+        <script src="js/jquery-1.11.3.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script>
+            $("body").on('click','a[data-toggle="collapse"]',function(e){
+                e.preventDefault();
+            });
+        </script>
+        <script src="js/angular.js"></script>
+        <script src="js/angular-route.js"></script>
+        <script src="js/liangdian.js"></script>
+        <script>
+//            (function () {
+//                var s = document.createElement("script");
+//                s.onload = function () {
+//                    bootlint.showLintReportForCurrentDocument([]);
+//                };
+//                s.src = "js/bootlint.js";
+//                document.body.appendChild(s)
+//            })();
+        </script>
+    </body>
+</html>
