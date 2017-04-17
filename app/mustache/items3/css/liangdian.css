@@ -17,6 +17,7 @@ body{
         height: 498px;
     }
 }
+
 @media screen and (max-width: 1199px) and (min-width: 992px){
     .index-dn-caption {
         width: 300px;
